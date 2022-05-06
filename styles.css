@@ -14,10 +14,7 @@ nav.navbar .dropdown:hover > .dropdown-menu {
 
 
 
-.mine_photo{
-    height: 700px;
-    overflow: hidden;
-}
+
 
 
 .map {
@@ -62,10 +59,12 @@ body{
 }
 
 
+.card{
+    width: 335px;
+    height: 600px;
+}
 
-
-   @media (max-width: 765px){
-   body{
-       font-size: 1em;
-   }
+.mine_photo img{
+    width: 700px;
+    height: 700px;
 }
