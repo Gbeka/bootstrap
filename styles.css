@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Oleo+Script+Swash+Caps&family=Tapestry&family=Radio+Canada&family=Water+Brush&family=ZCOOL+KuaiLe&display=swap');
+
+
+
+
+nav.navbar .dropdown:hover > .dropdown-menu {
+    display: block; 
+   } 
+
+
+
+
+
+
+
+.mine_photo{
+    height: 700px;
+    overflow: hidden;
+}
+
+
+.map {
+    padding: 40px 0;
+    text-align: center;
+}
+
+
+.logo{
+    font-size: 3rem;
+    color: #55286f;
+    font-family: 'Water Brush', cursive;
+    font-weight: 700;
+}
+
+header,section,footer{
+    background-color: #f8edeb;
+}
+
+
+section button{
+    background-color: #d1b3c4;
+    border: none;
+}
+
+section{
+    padding:30px;
+    
+}
+
+section .second-row{
+    padding-top: 30px;
+}
+
+body{
+    height: 100vh;
+    
+}
+
+*{
+    font-family: 'Radio Canada', sans-serif;
+}
+
+
+
+
+   @media (max-width: 765px){
+   body{
+       font-size: 1em;
+   }
+}
