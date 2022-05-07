@@ -60,11 +60,44 @@ body{
 
 
 .card{
-    width: 335px;
-    height: 600px;
+    max-width: 335px;
+    max-height: 600px;
 }
 
 .mine_photo img{
-    width: 700px;
-    height: 700px;
+    max-width: 700px;
+    max-height: 700px;
 }
+
+
+header{
+    padding:20px;
+}
+
+
+
+
+
+@media(max-width:700px){
+
+
+.form-floating label{
+    font-size: 0.8em;
+}
+}
+
+@media(max-width:425px){
+
+
+    .form-floating label{
+        font-size: 0.5em;
+    }
+    }
+
+    @media(max-width:270px){
+
+
+        .form-floating label{
+            display: none;
+        }
+        }
